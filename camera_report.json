@@ -1,0 +1,87 @@
+{
+    "bleeding_risk": "Low",
+    "movement_risk": "Low",
+    "posture_risk": "Low",
+    "analysis_quality": {
+        "level": "Low",
+        "score": 35,
+        "patient_detected": false,
+        "patient_coverage": 0.5646,
+        "skin_coverage": 0.0065,
+        "avg_brightness": 174.97,
+        "recommendations": [
+            "Center patient in frame and avoid background-only views.",
+            "Expose suspected injury area; avoid full clothing occlusion."
+        ]
+    },
+    "summary": [
+        "Visual analysis indicates low bleeding risk.",
+        "Movement pattern classified as low risk.",
+        "Body posture assessment shows low risk."
+    ],
+    "diagnosis": {
+        "condition": "No Visible Emergency Detected \u2013 Standard Monitoring",
+        "severity": "Low",
+        "severity_color": "success",
+        "description": "Camera analysis shows no external bleeding, normal voluntary movement, and a stable upright or seated posture. No acute visual emergency is identified. The patient appears to be conscious and physically responsive.",
+        "probable_causes": [
+            "Non-traumatic medical complaint (chest pain, dizziness, weakness)",
+            "Anxiety or panic episode",
+            "Mild allergic reaction",
+            "Post-event observation (patient stabilized before pickup)"
+        ],
+        "verification_tests": [
+            {
+                "test": "Complete vital signs assessment",
+                "purpose": "Confirm hemodynamic stability"
+            },
+            {
+                "test": "12-Lead ECG",
+                "purpose": "Rule out silent cardiac event"
+            },
+            {
+                "test": "Focused history and physical exam",
+                "purpose": "Identify non-visual complaints"
+            },
+            {
+                "test": "Blood glucose check",
+                "purpose": "Rule out hypoglycemia or diabetic issue"
+            }
+        ],
+        "hospital_preparation": [
+            {
+                "category": "Teams",
+                "details": [
+                    "Emergency physician for standard triage"
+                ]
+            },
+            {
+                "category": "Equipment",
+                "details": [
+                    "Standard monitoring equipment",
+                    "ECG machine available"
+                ]
+            },
+            {
+                "category": "Supplies",
+                "details": [
+                    "IV access supplies",
+                    "Standard medication tray"
+                ]
+            },
+            {
+                "category": "Room Setup",
+                "details": [
+                    "Standard examination room"
+                ]
+            }
+        ],
+        "overall_risk": "Low",
+        "camera_inputs": {
+            "bleeding_risk": "Low",
+            "movement_risk": "Low",
+            "posture_risk": "Low"
+        },
+        "history_unavailable": false
+    }
+}
